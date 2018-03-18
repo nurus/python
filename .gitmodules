@@ -1,4 +1,0 @@
-[submodule "kubernetes/base"]
-	path = kubernetes/base
-	url = https://github.com/ltamaster/python-base.git
-	branch = add-oidc-auth-support
