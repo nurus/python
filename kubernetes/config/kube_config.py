@@ -288,7 +288,7 @@ class KubeConfigLoader(object):
                 refresh_token=provider['config']['refresh-token'],
                 auth=(provider['config']['client-id'],
                       provider['config']['client-secret']),
-                verify=ca_cert.name
+                verify=False
             )
         except oauthlib.oauth2.rfc6749.errors.InvalidClientIdError:
             return
